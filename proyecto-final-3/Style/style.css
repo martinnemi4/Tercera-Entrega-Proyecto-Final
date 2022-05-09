@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*Fuentes*/
+
+
+body {
+    background-color: antiquewhite;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.img1 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.servicios-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.serv {
+    margin-bottom: 20px;
+}
+
+
+.form {
+    padding: 20px 20px 20px 20px;
+}
+
+p {
+    padding: 20px;
+}
+
+.texto {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+#mapa {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.boton:hover {
+    transform: scale(1.2);
+    border: solid 5px rgb(171, 6, 247);
+}
+
+.preguntas:hover {
+    text-decoration: underline 2px;
+    font-weight: bold;
+}
+
+.disclaimer {
+    display: none;
+}
+
+/*# sourceMappingURL=style.css.map */

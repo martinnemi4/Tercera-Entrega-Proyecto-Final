@@ -1,0 +1,7 @@
+@mixin no-ads {
+    display: none;
+}
+
+.disclaimer {
+    @include no-ads;
+}
