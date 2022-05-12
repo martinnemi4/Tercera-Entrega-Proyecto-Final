@@ -15,14 +15,17 @@
 
     <!--CSS-->
     <link rel="stylesheet" href="../Style/style.css">
+
+    <!--Favicon-->
+    <link rel="icon" type="image/jpg" href="../img/logo.ico"/>
 </head>
 
-<body>
+<body class="body-container">
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
 
     <!--HEADER-->
-    <header>
+    <header id="header">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
               <a class="navbar-brand" href="../index.html">Servicio Técnico</a>
@@ -59,11 +62,21 @@
           </nav>
     </header>
 
-<section>
+    <!--Boton flotante Whatsapp-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<a href="https://api.whatsapp.com/send?phone=541123888653&text=Hola,%20me%20gustar%C3%ADa%20obtener%20un%20presupuesto%20para%20reparar%20mi%20equipo!" class="float" target="_blank">
+<i class="fa fa-whatsapp my-float"></i>
+</a>
+
+<section id="titulo">
   <h1>Quienes Somos</h1>
 </section>
 
-<section class="texto">
+<aside id="imagen" class="img2">
+<img src="../img/quienes-somos.jpg" alt="">
+</aside>
+
+<section class="texto" id="texto">
   <p>
     ¡Hola! Somos MN Soluciones, una empresa que tiene como objetivo ofrecerte un servicio técnico integral, confiable y eficiente para que tu computadora maximice su rendimiento. Como Técnicos contamos con la formación y experiencia que nos permite saber lo que necesita tu computadora.
 
@@ -74,6 +87,23 @@ Por estas razones al recibir tu equipo desarrollamos un diagnóstico poniendo en
 Somos Técnicos y estamos a su servicio. Cualquier duda e inquietud sobre tu PC, <a href="contacto.html">contactanos!</a>
   </p>
 </section>
+
+<!--FOOTER-->
+<footer id="footer">
+  <nav>
+    <ul class="ul">
+      <li class="li"><a href="https://instagram.com"><img src="../img/footer/instagram.png" alt="" width="40px"></a></li>
+      <li class="li"><a href="https://whatsapp.com"><img src="../img/footer/whatsapp.png" alt="" width="40px"</a></li>
+      <li class="li"><a href="https://facebook.com"><img src="../img/footer/facebook.png" alt="" width="40px"</a></li>
+    </ul>
+  </nav>
+
+  <section>
+    <p class="texto">
+      Todos los derechos reservados®
+    </p>
+  </section>
+</footer>
 
 
 
